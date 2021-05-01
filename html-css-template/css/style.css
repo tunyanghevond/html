@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  background: #ffff00;
+  color: #000000;
+  text-align: center;
+  padding: 20px 0px;
+}
+.info-content {
+  background: #1abc9c;
+  color: #000000;
+  text-align: center;
+  padding: 20px 0px;
+}
+.info-content h2 + p {
+  padding: 20px 0px;
+}
+.nav-bar {
+  padding: 20px 0px;
+  background: #000000;
+}
+.nav-items {
+  display: flex;
+}
+.nav-items li {
+  list-style-type: none;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color: #f6f6f6;
+  display: inline-block;
+}
+.nav-items li a:nth-child(odd) {
+  padding: 0px 20px;
+}
+.main {
+  display: flex;
+  height: 83vh;
+}
+.blogs {
+  width: 42%;
+  background: #d6cece;
+}
+.post {
+  background: #94948f;
+  margin: 10px;
+  padding: 10px;
+}
+.post h3 {
+  padding: 15px 0px;
+}
+.post p {
+  padding: 15px 0px;
+}
+.content {
+  width: 59%;
+  padding: 0px 25px;
+}
+.content aside h3 {
+  padding: 7px 0px;
+}
+.content aside p {
+  padding: 7px 0px;
+}
+.contact-info {
+  display: flex;
+  background: rgb(163, 160, 160);
+  height: 60vh;
+}
+.contacts {
+  width: 65%;
+  padding: 12px;
+}
+.contacts form {
+  display: flex;
+  flex-direction: column;
+}
+.contacts form input,
+textarea,
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+.contacts button {
+  width: 15%;
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0px;
+}
